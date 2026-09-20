@@ -4,16 +4,16 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /*
-[This] is a convenience annotation that adds all of the following:
+[This] is a «composed annotation» that adds all of the following:
 
 - `@SpringBootConfiguration`
 
-  Tags the class as a source of bean definitions for the application context.
+  Tags the class as a source of «bean definitions» for the «application context».
 
 - `@EnableAutoConfiguration`
 
-  Tells Spring Boot to start adding beans
-  based on classpath settings, other beans, and various property settings.
+  Tells Spring Boot to start adding «bean definitions»
+  based on classpath settings, other «bean definitions», and various property settings.
 
   For example, if `spring-webmvc` is on the classpath,
   this annotation flags the application as a web application
